@@ -6,7 +6,8 @@ RUN pip install --no-cache-dir \
       pandas \
       scipy \
       scikit-learn \
-      jupyter
+      jupyter \
+      pyprind
 
 COPY jupyter_notebook_config.py /root/.jupyter/
 
